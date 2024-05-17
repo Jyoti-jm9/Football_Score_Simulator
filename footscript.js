@@ -106,7 +106,7 @@ let  t2_rank = Rank(val2);
       score2.innerText = goal2;
      }
      timer.innerText = time;
-     await new Promise(resolve => setTimeout(resolve, 1000)); 
+     await new Promise(resolve => setTimeout(resolve, 2000)); 
     }
    if(goal1 > goal2) {
     news.innerText= `Breaking News : ${val1} beat ${val2} ${goal1}-${goal2}`;

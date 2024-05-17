@@ -90,7 +90,7 @@
     
 }
 .animate {
-    animation: bounce 10s 1;
+    animation: bounce 20s 1;
 }
 
 .play {
@@ -201,4 +201,14 @@
    /* .msg {
         font : 0.8rem;
     } */
+}
+
+@media (max-width: 450px) {
+.sbar {
+    max-width: 500px;
+    font-size: 7px;
+}
+.select img {
+    width: 1.5rem;
+}
 }
