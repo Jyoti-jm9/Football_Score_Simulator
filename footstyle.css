@@ -5,8 +5,9 @@
 .selection {
     height:18vh;
     width: 100%;
-    margin:10px;
-    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+   /* padding: 10px; */
     background-color: rgb(20, 119, 119);
     display: flex;
     justify-content: center;
@@ -146,7 +147,7 @@
     background-color: rgba(248, 248, 248, 0.7);
     display:flex;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3vw;
     align-items: center;
     justify-content: center;
    /* border-radius: 10%;*/
@@ -181,7 +182,7 @@
     align-items : center;
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .sbar {
         font-size: 8px;
         padding: 8px;
@@ -197,7 +198,7 @@
     .icon {
         width : 25%;
     }
-    .msg {
-        font : 1.2rem;
-    }
+   /* .msg {
+        font : 0.8rem;
+    } */
 }
