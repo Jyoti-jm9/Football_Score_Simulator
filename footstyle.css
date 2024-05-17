@@ -3,11 +3,11 @@
     padding: 0;
 }
 .selection {
-    height:20vh;
-    width: 97%;
+    height:18vh;
+    width: 100%;
     margin:10px;
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(20, 119, 119);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,11 @@
      align-items: center;
 }
 .select img {
-    max-width: 2rem;
+    max-width: 3rem; 
+ /* width: 40px;
+  height: auto;
+  border-radius: 4px;*/
+
 }
 .select {
     display: flex;
@@ -33,6 +37,12 @@
     appearance: none; /* Remove default arrow */
     -webkit-appearance: none; 
     -moz-appearance: none; 
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+     display: block;
+    
 }
 
 /* Style for the select dropdown when clicked */
@@ -90,6 +100,7 @@
 .pbutton {
    width:10%;
    height: 10vh;
+   
    background-color: brown;
    color: #dfdcdc;
    border-color: solid white;
@@ -169,3 +180,24 @@
     justify-content: center;
     align-items : center;
 } 
+
+@media (max-width: 600px) {
+    .sbar {
+        font-size: 8px;
+        padding: 8px;
+    }
+    .select img {
+        width: 2.2rem;
+    }
+    .pbutton {
+        width: 15%;
+        height : 7vh;
+        font-size: 90%;
+    }
+    .icon {
+        width : 25%;
+    }
+    .msg {
+        font : 1.2rem;
+    }
+}
